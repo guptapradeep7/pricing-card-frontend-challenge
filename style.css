@@ -1,0 +1,99 @@
+body{
+  margin:0px;
+  padding: 20px;
+  height: 800px;
+  width: 600px;
+} 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.container{
+/*   border: solid; */
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+.container h2{
+  color: #2bb3b1
+}
+.st-container p{
+  color: rgb(115, 147, 179);
+  margin-bottom:0px;
+  padding-bottom:10px;
+}
+.st-container h4{
+  color: #bcdd34;
+}
+.st-container {
+  height: 20%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.nd-container{
+  display:flex;
+  
+/*   padding-left: 20px; */
+}
+.inner{
+  display: flex;
+  margin:0px;
+}
+#month{
+  padding-left : 5px;
+  padding-top: 3px;
+}
+
+.why{
+  margin : 0px;
+  font-size : 14px;
+/*   margin-left : 200px; */
+}
+.sign{
+  width: 100%;
+}
+
+.box-1{
+  background-color: #2bb3b1;
+  color: white;
+  padding-left: 20px;
+/*   margin-bottom:20px; */
+/*   padding-right:50vw; */
+  width: 50%;
+}
+.box-2{
+  background-color: #49bfbb;
+  color: white;
+  padding-left: 20px;
+  width: 50%;
+}
+
+ul{
+  font-size: 14px;
+  list-style-type: none;
+    padding: 0px;
+  opacity: 0.8;
+}
+
+/* .padd{
+  padding-left: 20px;
+} */
+
+button{
+  color: white;
+  background-color: #bcdd34;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px 80px 5px 80px;
+  font-size: 12px;
+  margin-bottom: 20px; 
+/*   margin-left: 20px */
+}
+
+button:hover{
+  cursor: pointor;
+  background-color: #A9C420;
+  transform: scale(1.03);
+}
